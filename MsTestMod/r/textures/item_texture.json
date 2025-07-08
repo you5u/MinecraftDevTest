@@ -1,0 +1,15 @@
+{
+"resource_pack_name": "vanilla",
+"texture_name": "atlas.items",
+"texture_data": {
+"destiny_sword": {
+"textures": "textures/items/sword/destinysword"
+},
+"destiny_time_stop": {
+"textures": "textures/items/timestop"
+},
+"destiny_mode": {
+"textures": "textures/items/mode"
+}
+}
+}

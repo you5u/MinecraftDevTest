@@ -1,0 +1,62 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "destiny:destiny_sword",
+            "materials": {
+                "default": "charged_creeper",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "enchanted": "textures/misc/enchanted_item_glint",
+                "default": "textures/items/sword/destinysword_0",
+                "default1": "textures/items/sword/destinysword_1",
+                "default2": "textures/items/sword/destinysword_2",
+                "default3": "textures/items/sword/destinysword_3",
+                "default4": "textures/items/sword/destinysword_4",
+                "default5": "textures/items/sword/destinysword_5",
+                "default6": "textures/items/sword/destinysword_6",
+                "default7": "textures/items/sword/destinysword_7",
+                "default8": "textures/items/sword/destinysword_8",
+                "default9": "textures/items/sword/destinysword_9",
+                "default10": "textures/items/sword/destinysword_10",
+                "default11": "textures/items/sword/destinysword_11",
+                "default12": "textures/items/sword/destinysword_12",
+                "default13": "textures/items/sword/destinysword_13",
+                "default14": "textures/items/sword/destinysword_12",
+                "default15": "textures/items/sword/destinysword_11",
+                "default16": "textures/items/sword/destinysword_10",
+                "default17": "textures/items/sword/destinysword_9",
+                "default18": "textures/items/sword/destinysword_8",
+                "default19": "textures/items/sword/destinysword_7",
+                "default20": "textures/items/sword/destinysword_6",
+                "default21": "textures/items/sword/destinysword_5",
+                "default22": "textures/items/sword/destinysword_4",
+                "default23": "textures/items/sword/destinysword_3",
+                "default24": "textures/items/sword/destinysword_2",
+                "default25": "textures/items/sword/destinysword_1"
+            },
+            "geometry": {
+                "default": "geometry.destiny_sword"
+            },
+            "animations": {
+                "wield": "animation.destiny_sword.wield",
+                "charging": "animation.destiny_sword.charging"
+            },
+            "scripts": {
+                "pre_animation": [
+                    "variable.charge_amount = math.clamp((query.main_hand_item_max_duration - (query.main_hand_item_use_duration - query.frame_alpha + 1.0)) / 10.0, 0.0, 1.0f);"
+                ],
+                "animate": [
+                    "wield",
+                    {
+                        "charging": "query.main_hand_item_use_duration > 0.0f && c.is_first_person && !query.is_sneaking && query.is_sneaking"
+                    }
+                ]
+            },
+            "render_controllers": [
+                "controller.render.destiny"
+            ]
+        }
+    }
+}

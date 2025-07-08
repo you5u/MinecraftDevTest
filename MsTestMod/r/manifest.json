@@ -1,0 +1,51 @@
+{
+"format_version": 2,
+"header": {
+"description": "by you5u",
+"name": "命运Mod",
+"uuid": "23198e82-54e0-4371-bd39-46d06ed317f7",
+"version": [
+1,
+0,
+0
+],
+"min_engine_version": [
+1,
+18,
+20
+]
+},
+"modules": [
+{
+"description": "by you5u",
+"type": "resources",
+"uuid": "f0f2cdeb-1597-4613-a7cd-3372c47eb051",
+"version": [
+1,
+0,
+0
+]
+}
+],
+"dependencies": [
+{
+"uuid": "c6f8f7fc-5f43-4c0c-8126-3b2afa44d539",
+"version": [
+1,
+0,
+0
+]
+}
+],
+"settings": [
+{
+"type": "label",
+"text": "you5u"
+}
+],
+"metadata": {
+"authors": [
+"Null"
+]
+}
+}

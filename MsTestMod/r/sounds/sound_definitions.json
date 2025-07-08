@@ -1,0 +1,9 @@
+{
+    "mod.turretshoot": {
+        "category": "hostile",
+        "min_distance": 6400.0,
+        "sounds": [
+            "sounds/turretshoot"
+        ]
+    }
+}

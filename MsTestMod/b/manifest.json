@@ -1,0 +1,47 @@
+{
+"format_version": 2,
+"header": {
+"description": "by you5u",
+"name": "命运Mod",
+"uuid": "8678e216-e05d-4d69-9c43-de969128673d",
+"version": "1.2.5",
+"min_engine_version": [
+1,
+19,
+50
+]
+},
+"modules": [
+{
+"description": "by you5u",
+"type": "script",
+"language": "javascript",
+"uuid": "8c7bc88e-de28-46e0-a6b4-509b18553e40",
+"version": "1.2.5",
+"entry": "scripts/script.js"
+}
+],
+"dependencies": [
+{
+"module_name": "@minecraft/server",
+"version": "1.1.0-beta"
+},
+{
+"module_name": "@minecraft/server-gametest",
+"version": "1.0.0-beta"
+},
+{
+"module_name": "@minecraft/server-ui",
+"version": "1.0.0-beta"
+},
+{
+"module_name": "mojang-minecraft",
+"version": "0.1.0"
+}
+],
+"metadata": {
+"authors": [
+"Null"
+]
+}
+}

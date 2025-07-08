@@ -1,0 +1,50 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.destiny": {
+            "arrays": {
+                "textures": {
+                    "array.swords": [
+                        "texture.default",
+                        "texture.default1",
+                        "texture.default2",
+                        "texture.default3",
+                        "texture.default4",
+                        "texture.default5",
+                        "texture.default6",
+                        "texture.default7",
+                        "texture.default8",
+                        "texture.default9",
+                        "texture.default10",
+                        "texture.default11",
+                        "texture.default12",
+                        "texture.default13",
+                        "texture.default14",
+                        "texture.default15",
+                        "texture.default16",
+                        "texture.default17",
+                        "texture.default18",
+                        "texture.default19",
+                        "texture.default20",
+                        "texture.default21",
+                        "texture.default22",
+                        "texture.default23",
+                        "texture.default24",
+                        "texture.default25"
+                    ]
+                }
+            },
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "array.swords[(query.anim_time*10)]"
+            ],
+            "light_color_multiplier": 10,
+            "ignore_lighting": true
+        }
+    }
+}

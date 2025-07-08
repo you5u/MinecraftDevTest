@@ -1,0 +1,3 @@
+通过Hooks.txt可以观察到
+Actor::isRemoved是通过一个Actor* actor偏移937来输出isremoved的
+Actor::remove的工作流程应该是 移除实体组件 -> 移除方块实体组件 -> 移除玩家 -> 上报ActorRemoveEvent -> 修改isremoved指针值为1

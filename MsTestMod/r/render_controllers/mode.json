@@ -1,0 +1,25 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.destiny_mode": {
+            "arrays": {
+                "textures": {
+                    "array.swords": [
+                        "texture.default"
+                    ]
+                }
+            },
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "array.swords[(query.anim_time*10)]"
+            ],
+            "light_color_multiplier": 10,
+            "ignore_lighting": true
+        }
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.destinysword",
+                "texture_width": 16.0,
+                "texture_height": 16.0
+            },
+            "bones": [
+                {
+                    "name": "rightitem",
+                    "texture_meshes": [
+                        {
+                            "local_pivot": [
+                                6.0,
+                                0.0,
+                                6.0
+                            ],
+                            "position": [
+                                2.05,
+                                1.3,
+                                -3
+                            ],
+                            "rotation": [
+                                0.0,
+                                45.9,
+                                270.0
+                            ],
+                            "scale": [
+                                0.992,
+                                0.992,
+                                0.992
+                            ],
+                            "texture": "default"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.bow_pulling_0",
+                "texture_width": 16.0,
+                "texture_height": 16.0
+            },
+            "bones": [
+                {
+                    "name": "rightitem",
+                    "texture_meshes": [
+                        {
+                            "local_pivot": [
+                                6.0,
+                                0.0,
+                                6.0
+                            ],
+                            "position": [
+                                0.5,
+                                1.0,
+                                -1.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                -135.0,
+                                90.0
+                            ],
+                            "texture": "bow_pulling_0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.bow_pulling_1",
+                "texture_width": 16.0,
+                "texture_height": 16.0
+            },
+            "bones": [
+                {
+                    "name": "rightitem",
+                    "texture_meshes": [
+                        {
+                            "local_pivot": [
+                                6.0,
+                                0.0,
+                                6.0
+                            ],
+                            "position": [
+                                0.5,
+                                1.0,
+                                -1.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                -135.0,
+                                90.0
+                            ],
+                            "texture": "bow_pulling_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.bow_pulling_2",
+                "texture_width": 16.0,
+                "texture_height": 16.0
+            },
+            "bones": [
+                {
+                    "name": "rightitem",
+                    "texture_meshes": [
+                        {
+                            "local_pivot": [
+                                6.0,
+                                0.0,
+                                6.0
+                            ],
+                            "position": [
+                                0.5,
+                                1.0,
+                                -1.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                -135.0,
+                                90.0
+                            ],
+                            "texture": "bow_pulling_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.bow_standby",
+                "texture_width": 16.0,
+                "texture_height": 16.0
+            },
+            "bones": [
+                {
+                    "name": "rightitem",
+                    "texture_meshes": [
+                        {
+                            "local_pivot": [
+                                6.0,
+                                0.0,
+                                6.0
+                            ],
+                            "position": [
+                                0.5,
+                                1.0,
+                                -2.0
+                            ],
+                            "rotation": [
+                                0.0,
+                                -135.0,
+                                90.0
+                            ],
+                            "texture": "default"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
